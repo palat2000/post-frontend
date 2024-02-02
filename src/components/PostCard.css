@@ -1,0 +1,7 @@
+.hover-content {
+  opacity: 0;
+}
+
+.hover-container:hover .hover-content {
+  opacity: 100;
+}
