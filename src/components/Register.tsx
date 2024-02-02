@@ -81,11 +81,9 @@ function Register({ toggleIsRegister }: { toggleIsRegister: () => void }) {
         if (err.response?.data == "This id is already used") {
           setValidateForm((prev) => ({
             ...prev,
-            id: { isError: true, message: err.response?.data },
+            id: { isError: true, message: "This id is already used" },
           }));
         }
-      } else {
-        console.log(err);
       }
     } finally {
       setIsLoading(false);
