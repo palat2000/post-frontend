@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { Pagination } from "@mui/material";
+// import { Pagination } from "@mui/material";
 import Header from "./components/Header";
 import Login from "./components/Login";
 import PostCard from "./components/PostCard";
